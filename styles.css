@@ -1,25 +1,18 @@
 /* Main container styling */
-#container {
-    margin: 20px;                  /* spacing around container */
-    padding: 20px;                 /* inner padding */
-    border: 1px solid #000;        /* optional: visual border */
-    background-color: #f5f5f5;     /* optional: container background */
-}
 
 /* Insert content before the container */
 #container::before {
     content: "Before Element";      /* text to insert before */
-    display: block;                 /* ensures it is on a separate line */
+                 /* ensures it is on a separate line */
     font-size: 20px;                /* size of text */
     color: #f00;                    /* red color */
-    margin-bottom: 10px;            /* spacing below before content */
+           /* spacing below before content */
 }
 
 /* Insert content after the container */
 #container::after {
     content: "After Element";       /* text to insert after */
-    display: block;                 /* ensures it is on a separate line */
+/* ensures it is on a separate line */
     font-size: 20px;                /* size of text */
-    color: #f00;                    /* red color */
-    margin-top: 10px;               /* spacing above after content */
+    color: #f00;                    /* red color */            /* spacing above after content */
 }
